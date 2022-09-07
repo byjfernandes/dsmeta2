@@ -35,5 +35,4 @@ public class SaleController {
 	public void notifySms(@PathVariable Long id) {
 		smsService.sendSms(id);
 	}
-}
- 
+} 
