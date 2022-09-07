@@ -1,4 +1,4 @@
-package com.devsuperior.dsmeta2.entities;
+package com.devsuperior.dsmeta.entities;
 
 import java.time.LocalDate;
 
@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tb_sales")
+@Table(name="tb_sales")
 public class Sale {
 	
 	@Id
